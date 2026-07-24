@@ -1,0 +1,50 @@
+import type { Task } from '@/domain/models/Task'
+
+export const mockTasks: Task[] = [
+  {
+    id: '1',
+    boardId: '1',
+    title: 'Hacer módulo login en Glassboard',
+    description: 'Tarea general del proyecto',
+    column: 'objectives',
+    order: 0,
+    tagIds: [],
+    createdAt: '',
+  },
+  {
+    id: '2',
+    boardId: '1',
+    title: 'Diseñar mockup del login',
+    column: 'done',
+    order: 0,
+    tagIds: [],
+    createdAt: '',
+  },
+  {
+    id: '3',
+    boardId: '1',
+    title: 'Crear componentes reactivos',
+    column: 'in_progress',
+    order: 0,
+    tagIds: [],
+    createdAt: '',
+  },
+  {
+    id: '4',
+    boardId: '1',
+    title: 'Crear tabla en DB',
+    column: 'todo',
+    order: 0,
+    tagIds: [],
+    createdAt: '',
+  },
+  {
+    id: '5',
+    boardId: '1',
+    title: 'Conectar con backend',
+    column: 'todo',
+    order: 1,
+    tagIds: [],
+    createdAt: '',
+  },
+]
