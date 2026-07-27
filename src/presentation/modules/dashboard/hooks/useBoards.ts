@@ -29,6 +29,7 @@ export function useBoards() {
         id: crypto.randomUUID(),
         name: name.trim(),
         color,
+        category: '',
         taskCount: 0,
         tagIds: [],
         createdAt: new Date().toISOString(),
